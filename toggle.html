@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="toggle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <script>
+        let disp_menu = document.querySelector(".under2");
+        let main_nav = document.querySelector(".list");
+
+        disp_menu.addEventListener("click",function(){
+            console.log("hello");
+            main_nav.classList.toggle("menus");
+        })
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="Page">
+            <div class="container">
+                <div class="menu">
+                    <div class="logo">
+                        <a href=""><h1>16th July WD</h1></a>
+                    </div>
+                    <div class="menu-2">
+                        <div class="list">
+                            <ul class="lists">
+                                <li><a href="">Online</a></li>
+                                <li><a href="">Classroom</a></li>
+                                <li><a href="">Absent</a></li>
+                                
+                                <li class="ulist">
+                                    <a href="" class="disp-ho-1">Mentally Absent</a
+                                    ><span class="fa-solid fa-caret-down"></span>
+                                    <ul class="inside">
+                                      <li><a href="">Kaushik</a></li>
+                                      <li><a href="">Pujan</a></li>
+                                      <li><a href="">Hardik</a></li>
+                                      <li><a href="">Montu</a></li>
+                                      <li><a href="">Ritesh</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <button class="btn1">Search</button>
+                        </div>
+                        
+                        <!-- <button class="under2">
+                            <span class="fa-solid fa-bars"></span>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+</body>
+</html>
